@@ -1,7 +1,6 @@
-import { Component } from "react";
-import { Divider, Typography, Form, Input, Row, Col, Flex, Button } from "antd";
+import { Typography, Form, Input, Row, Col, Flex, Button } from "antd";
 
-const { Title, Paragraph, Text, Link } = Typography;
+const { Title } = Typography;
 
 const formItemLayout = {
   labelCol: {

@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import { useRef } from "react";
 import { Layout, Menu, ConfigProvider } from "antd";
 import {
   HomeOutlined,
@@ -11,8 +11,6 @@ import Skills from "./components/Skills";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import FontApp from "./components/FontApp";
-import { ReactComponent as Logo } from "./assets/images/logo.svg";
-import logo from "./assets/images/logo192.png";
 import AppFooter from "./components/AppFooter";
 
 const { Header, Content } = Layout;

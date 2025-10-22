@@ -5,11 +5,6 @@ import githubIcon from "../assets/svg/github.svg";
 import gmailIcon from "../assets/svg/gmail.svg";
 import stackoverflowIcon from "../assets/svg/stackoverflow.svg";
 
-import {
-  MailOutlined,
-  PhoneOutlined,
-  EnvironmentOutlined,
-} from "@ant-design/icons";
 const { Footer } = Layout;
 
 class AppFooter extends Component {

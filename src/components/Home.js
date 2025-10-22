@@ -1,7 +1,7 @@
 import { Component } from "react";
-import { Divider, Typography, Flex, Button, Row, Col } from "antd";
+import { Typography, Flex, Button, Row, Col } from "antd";
 
-const { Title, Paragraph, Text, Link } = Typography;
+const { Paragraph } = Typography;
 
 class Home extends Component {
   render() {

@@ -1,6 +1,5 @@
 import { Component } from "react";
 import { Typography, Flex, Image, Row, Col, Progress } from "antd";
-import CustomCard from "./Card";
 import javaIcon from "../assets/svg/java.svg";
 import nosql from "../assets/svg/nosql.svg";
 import awsIcon from "../assets/svg/aws.svg";
@@ -10,7 +9,7 @@ import gitlabIcon from "../assets/svg/gitlab.svg";
 import camundaIcon from "../assets/svg/camunda.svg";
 import azureIcon from "../assets/svg/azure.svg";
 
-const { Title, Paragraph, Text, Link } = Typography;
+const { Title } = Typography;
 
 class Skills extends Component {
   render() {
