@@ -23,42 +23,42 @@ class Home extends Component {
               <strong>Areas of expertise:</strong>
             </Paragraph>
             <Flex vertical gap="small">
-              <Row>
-                <Col span={8} order={3}>
+              <Row gutter={[8, 8]}>
+                <Col xs={24} sm={12} md={8} order={3}>
                   <Button color="primary" variant="outlined">
                     Software Development
                   </Button>
                 </Col>
-                <Col span={8} order={2}>
+                <Col xs={24} sm={12} md={8} order={2}>
                   <Button color="primary" variant="outlined">
                     Solution Designing
                   </Button>
                 </Col>
-                <Col span={8} order={1}>
+                <Col xs={24} sm={12} md={8} order={1}>
                   <Button color="primary" variant="outlined">
                     Technical Documentation
                   </Button>
                 </Col>
               </Row>
               <Row>
-                <Col span={8} order={3}>
+                <Col xs={24} sm={12} md={8} order={3}>
                   <Button color="primary" variant="outlined">
                     Requirement Gathering
                   </Button>
                 </Col>
-                <Col span={8} order={2}>
+                <Col xs={24} sm={12} md={8} order={2}>
                   <Button color="primary" variant="outlined">
                     Test-Driven Development
                   </Button>
                 </Col>
-                <Col span={8} order={1}>
+                <Col xs={24} sm={12} md={8} order={1}>
                   <Button color="primary" variant="outlined">
                     Dev-ops Task
                   </Button>
                 </Col>
               </Row>
               <Row>
-                <Col span={8} order={3}>
+                <Col xs={24} sm={12} md={8} order={3}>
                   <Button color="primary" variant="outlined">
                     Coding & Debugging
                   </Button>
