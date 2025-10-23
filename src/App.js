@@ -80,23 +80,6 @@ const App = () => {
               style={{ flex: 1 }}
             ></Menu>
           </Header>
-          {/* <Content style={{ padding: "24px" }}>
-            <section ref={homeRef} style={{ height: "30vh" }}>
-              <Home />
-            </section>
-            <section ref={skillsRef} style={{ height: "55vh" }}>
-              <Skills />
-            </section>
-            <section ref={experienceRef} style={{ height: "60vh" }}>
-              <Experience />
-            </section>
-            <section ref={contactRef}>
-              <Contact />
-            </section>
-            <section ref={appFooter}>
-              <AppFooter />
-            </section>
-          </Content> */}
           <Content style={{ padding: "24px" }}>
             <Row gutter={[0, 48]}>
               <Col span={24}>
