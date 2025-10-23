@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+section {
+  min-height: 50vh;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  scroll-margin-top: 64px;
+}
+
+@media (max-width: 768px) {
+  section {
+    min-height: auto;
+    padding: 16px;
+  }
+}

@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import { Layout, Menu, ConfigProvider } from "antd";
+import { Layout, Menu, ConfigProvider, Row, Col } from "antd";
 import {
   HomeOutlined,
   UserOutlined,
@@ -80,7 +80,7 @@ const App = () => {
               style={{ flex: 1 }}
             ></Menu>
           </Header>
-          <Content style={{ padding: "24px" }}>
+          {/* <Content style={{ padding: "24px" }}>
             <section ref={homeRef} style={{ height: "30vh" }}>
               <Home />
             </section>
@@ -96,6 +96,39 @@ const App = () => {
             <section ref={appFooter}>
               <AppFooter />
             </section>
+          </Content> */}
+          <Content style={{ padding: "24px" }}>
+            <Row gutter={[0, 48]}>
+              <Col span={24}>
+                <section ref={homeRef}>
+                  <Home />
+                </section>
+              </Col>
+
+              <Col span={24}>
+                <section ref={skillsRef}>
+                  <Skills />
+                </section>
+              </Col>
+
+              <Col span={24}>
+                <section ref={experienceRef}>
+                  <Experience />
+                </section>
+              </Col>
+
+              <Col span={24}>
+                <section ref={contactRef}>
+                  <Contact />
+                </section>
+              </Col>
+
+              <Col span={24}>
+                <section ref={appFooter} style={{ paddingBottom: "48px" }}>
+                  <AppFooter />
+                </section>
+              </Col>
+            </Row>
           </Content>
         </Layout>
       </ConfigProvider>
